@@ -55,7 +55,12 @@ public class DataLoader implements ApplicationRunner {
         Kotoba goodFortune = new Kotoba("good fortune", "kou-un", "こううん", "幸運", others);
         kotobaRepository.save(goodFortune);
 
-
+//        Kotoba love = new Kotoba("love", "ai", "ai", "ai", relationships);
+//        kotobaRepository.save(love);
+//        Kotoba passion = new Kotoba("passion", "jounetsu", "jounetsu", "jounetsu", relationships);
+//        kotobaRepository.save(passion);
+//        Kotoba friend = new Kotoba("friend", "tomo", "tomo", "tomo", relationships);
+//        kotobaRepository.save(friend);
 
 
     }
